@@ -7,7 +7,7 @@ function Home(){
         <>
         <Menu />
         
-        <Footer />
+
         </>
     )
 }

@@ -19,7 +19,8 @@ export default function index() {
             <h1 >Seja bem-vindo </h1>
             <h2>Receitas rápidas</h2>
           <p >
-            Tenha um bom apetite!!!
+            Site com receitas rápidas e divertidas <br />
+            Mata a fome e deixa você triste.
           </p>
           <a href="/home"><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
          
