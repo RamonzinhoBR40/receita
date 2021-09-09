@@ -16,18 +16,17 @@ export default function index() {
       <main className={styles.main}>
       <div className={styles.grid}>
        <p className={styles.card}>
-         <h1 >
-          Seja bem vindo <a href='/home'>ao nosso site!</a>
-         </h1>
-
-         <p className={styles.subtitle}>
-          Aqui você irá desfrutar de <br/>comidas deliciosas, hlrgfuirg{' '}
-          <code className={styles.code}></code>
+         <h1 >Seja bem vindo</h1>
+         <h1><a href='/home'>ao nosso site!</a></h1>
+         <p >
+          Aqui você irá desfrutar de <br/>
+          comidas deliciosas, hlrgfuirg
          </p>
+         <button className={styles.botao}>CLIQUE PARA COZINHAR</button>
 
          
         </p>
-        <Image src="/" alt="Vercel Logo" width={72} height={16} />
+        <Image src="/sopa.png" width={400} height={280} />
         </ div>
       </main>
     </div>
