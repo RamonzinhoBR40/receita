@@ -5,7 +5,7 @@ function Menu(){
         <>
            <div>
         <navbar>
-            <a href='/home'>Receitas rápidas</a>
+            <a href="/home">Receitas rápidas</a>
             <input 
             type="text"
             id="pesquisa" 
@@ -37,14 +37,14 @@ function Menu(){
             <hr></hr>
         </p>
           
-        <div className={styles.grid}>
-          <a href='/receita' className={styles.card}>
-            <h2>Documentation &rarr;</h2>
+        <div className={styles.gridd}>
+          <a href="/Receita" className={styles.card}>
+            <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
+            <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
@@ -52,7 +52,7 @@ function Menu(){
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
+            <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -60,7 +60,7 @@ function Menu(){
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h3>Deploy &rarr;</h3>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>

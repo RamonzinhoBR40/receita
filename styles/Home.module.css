@@ -45,14 +45,35 @@
 }
 
 .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFB800;
-  width: 100%;
-  height:20px;
-  border-radius: 2%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+position: static;
+width: 300px;
+height: 50px;
+border: 0px;
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+color: white;
+border-radius: 8px;
+font-family: Roboto;
+font-size: 1rem;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 20px 0px;
+}
 
+.card h3 {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Roboto;
+  line-height: 1.0;
+  font-size: 2rem;
+  color: #1325c57a;  
 }
 
 .card h2 {
@@ -60,7 +81,7 @@
   font-family: Roboto;
   line-height: 1.0;
   font-size: 3rem;
-  color: #FFB30E;
+  color: #FFB800;
 }
 
 .card h1 {
@@ -72,6 +93,7 @@
  
 }
 
+.card h3,
 .card h2,
 .card h1,
 .card p {
@@ -82,7 +104,7 @@
   line-height: 1.5;
   font-size: 1.5rem;
   font-family: Roboto;
-  color: yellowgreen;
+  color: rgb(0, 0, 0);
 }
 
 .code {
@@ -99,9 +121,28 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  max-width: 900px;
+  max-height: 600px;
+  width: 950px;
+  height: 950px;
+  margin-top: 1rem;
 }
+
+.gridd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  max-width: 800px;
+  max-height: 600px;
+  width: 900px;
+  height: 900px;
+  margin-top: 2rem;
+  margin-left: 35rem;
+ 
+}
+
 
 .card {
   margin: 1rem;

@@ -17,12 +17,12 @@ export default function index() {
         <div className={styles.grid}>
           <p className={styles.card}>
             <h1 >Seja bem-vindo </h1>
-            <h2><a href='/home'>Receitas rápidas</a></h2>
+            <h2><a href="/home">Receitas rápidas</a></h2>
           <p >
             Aqui você irá desfrutar de <br/>
             comidas deliciosas, hlrgfuirg
           </p>
-          <button className={styles.button}>CLIQUE PARA COZINHAR</button>
+          <a href="/home"><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
          
           </p>
         <Image src="/sopa.png" width={400} height={280} />
