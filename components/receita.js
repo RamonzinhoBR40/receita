@@ -42,27 +42,35 @@ function Receitas(){
       </p>
 
       <div className={styles.grid}>
+          <Link href="/Receitas1" >
+            <a className={styles.card}>
+            <Image src = "/hamburguer.jpg" width={400} height={280}/>
+            <h2>Hamburguer de Frango &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>
+
+          <Link href="/" >
+            <a className={styles.card}>
+            <Image src = "/frangolegumes.jpg" width={400} height={280}/>
+            <h2>Frango com Legumes&rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>
+          
+          <Link href="/" >
+            <a className={styles.card}>
+            <Image src = "/fricasse.jpg" width={400} height={280}/>
+            <h2>Fricassê&rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>
+
+          <Link href="/" >
+            <a className={styles.card}>
+            <Image src = "/sopa.jpg" width={400} height={280}/>
+            <h2>Sopa de Frango&rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>
+
           <Link href="https://nextjs.org/docs" >
-            <a className={styles.card}><h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p></a>
-          </Link>
-
-        <Link href="https://nextjs.org/learn" >
-          <a  className={styles.card}><h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p></a>
-        </Link>
-        
-        <Link href="https://nextjs.org/docs" >
-            <a className={styles.card}><h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p></a>
-          </Link>
-
-        <Link href="https://nextjs.org/learn" >
-          <a  className={styles.card}><h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p></a>
-        </Link>
-
-        <Link href="https://nextjs.org/docs" >
             <a className={styles.card}><h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p></a>
           </Link>
