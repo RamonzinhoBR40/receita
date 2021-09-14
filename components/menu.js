@@ -1,16 +1,20 @@
-import styles from '../styles/Menu.module.css'
+import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 function Menu(){
     return (
         <>
-          <div className={styles.div1}>        
-            <h1>Receitas rápidas</h1>
-            <input  
-              type="text"
-              id="pesquisa" 
-              name="pesquisa" 
-              value="Pesquisar receita" />    
-          </div> 
+           <div className={styles.topo}>
+            <div><h2>Receitas Rápidas</h2></div>
+            <div><a><Image src="/frango.PNG" width={200} height={105} /></a></div>
+            <div><input 
+            type="text"
+            id="pesquisa" 
+            name="pesquisa" 
+            value="Pesquisar receita" /></div>
+
+           
+        </div>   
         </>
     )
 }

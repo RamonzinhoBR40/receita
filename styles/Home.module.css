@@ -1,3 +1,59 @@
+/* MENU */
+
+.topo {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFB800;
+}
+
+.topo div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.topo h2{
+  position:static;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height:65%;
+  color: #000000;
+  
+}
+
+.topo input {
+  text-align: left;
+  position: absolute;
+  width: 313px;
+  height: 46px;
+  left: 1500px;
+  top: 35px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+}
+
+.Image {
+  position: relative;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40%;
+  margin-bottom: 50%;
+  background-color: darkblue;
+}
+
+/*FIM MENU*/
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -8,6 +64,8 @@
   height: 100vh;
 }
 
+
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -17,21 +75,7 @@
   align-items: center;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 .title a {
   color: #0070f3;
@@ -73,7 +117,7 @@ margin: 30px 35px;
   font-family: Roboto;
   line-height: 1.0;
   font-size: 2rem;
-  color: #1325c57a;  
+  color: black;  
 }
 
 .card h2 {
@@ -93,7 +137,7 @@ margin: 30px 35px;
  
 }
 
-.card h3,
+
 .card h2,
 .card h1,
 .card p {
@@ -134,14 +178,8 @@ margin: 30px 35px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: white;
-  max-width: 600px;
-  max-height: 600px;
-  width: 700px;
-  height: 700px;
-  margin-top: 1rem;
- 
- 
+  max-width: 900px;
+  margin-top: 3rem;
 }
 
 
@@ -166,6 +204,35 @@ margin: 30px 35px;
   border-color: #0070f3;
 }
 
+/*RECEITAS*/
+
+.card5 h3 {
+
+}
+
+
+
+/*FIM RECEITAS*/
+
+.footer {
+  width: 40;
+  height: 100%;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 10px;
+  margin-top: 40%;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+/*FIM FOOOTER*/
 
 
 .card p {
