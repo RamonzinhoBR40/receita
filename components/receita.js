@@ -1,7 +1,7 @@
 import Menu from "../components/menu"
 import Image from 'next/image'
 import Link  from 'next/link'
-import styles from '../styles/components.module.css'
+import styles from '../styles/Components.module.css'
 
 
 function Receitas(){
@@ -43,6 +43,26 @@ function Receitas(){
 
       <div className={styles.grid}>
           <Link href="https://nextjs.org/docs" >
+            <a className={styles.card}><h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p></a>
+          </Link>
+
+        <Link href="https://nextjs.org/learn" >
+          <a  className={styles.card}><h2>Learn &rarr;</h2>
+          <p>Learn about Next.js in an interactive course with quizzes!</p></a>
+        </Link>
+        
+        <Link href="https://nextjs.org/docs" >
+            <a className={styles.card}><h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p></a>
+          </Link>
+
+        <Link href="https://nextjs.org/learn" >
+          <a  className={styles.card}><h2>Learn &rarr;</h2>
+          <p>Learn about Next.js in an interactive course with quizzes!</p></a>
+        </Link>
+
+        <Link href="https://nextjs.org/docs" >
             <a className={styles.card}><h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p></a>
           </Link>
