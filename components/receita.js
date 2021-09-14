@@ -42,10 +42,10 @@ function Receitas(){
       </p>
 
       <div className={styles.grid}>
-        <Link href="https://nextjs.org/docs" >
-          <a className={styles.card}><h2>Documentation &rarr;</h2>
-          <p>Find in-depth information about Next.js features and API.</p></a>
-        </Link>
+          <Link href="https://nextjs.org/docs" >
+            <a className={styles.card}><h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p></a>
+          </Link>
 
         <Link href="https://nextjs.org/learn" >
           <a  className={styles.card}><h2>Learn &rarr;</h2>
@@ -67,7 +67,8 @@ function Receitas(){
             Instantly deploy your Next.js site to a public URL with Vercel.
           </p></a>
         </Link>
-      </div>
+     </div>
+   
     </main>
       
       </>
