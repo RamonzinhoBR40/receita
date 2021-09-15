@@ -34,7 +34,7 @@ function modeloReceita1(){
                 <li>Após fazer os hambúrgueres, empane cada um na farinha de aveia.</li><br />
 
                 <li>Congele ou frite na hora.</li></ul>
-            </div>
+            </div>            
         </div>
     )
 }

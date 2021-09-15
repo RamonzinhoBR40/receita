@@ -5,35 +5,48 @@ function modeloreceita3(){
     return (
         <div className={styles.receita}>
             <div className={styles.image}> 
-                <p><h2>Hamburguer de Frango</h2></p>           
-                <Image src = "/hamburguer.jpg" width={400} height={270}/>                            
+                <p><h2>Fricassê de Frango</h2></p>           
+                <Image src = "/fricasse.jpg" width={400} height={270}/>                            
             </div>
 
             <div className={styles.texto}>
                 
                 <ul><h2>Ingredientes: </h2><br />
 
-                <li>400 g de peito de frango</li><br />
-                <li>Sal a gosto</li><br />
-                <li>Pimenta-do-reino a gosto</li><br />
-                <li>Tempero de sua preferência a gosto</li><br />
-                <li>1 cebola ralada</li><br />
-                <li>5 colheres de sopa de farinha de aveia</li></ul>
+                <li>1 lata de creme de leite</li><br />
+                <li>1 lata de leite</li><br />
+                <li>1 lata de caldo de frango (do cozimento)</li><br />
+                <li>1 lata de milho</li><br />
+                <li>1 copo de requeijão 200g</li><br />
+                <li>1 colher de chá de sal</li><br />
+                <li>1 colher de sopa de farinha de trigo</li><br />
+                <li>2 colheres de sopa de azeite</li><br />
+                <li>1/2 cebola picada</li><br />
+                <li>2 dentes de alho</li><br />
+                <li>3 peitos de frango cozido e desfiado</li><br />
+                <li>1 colher de chá de sal</li><br />
+                <li>4 colheres de molho de tomate</li><br />
+                <li>50g de azeitona picada</li><br />
+                <li>Pimenta do reino a gosto</li></ul>
 
                 <ul><h2>Modo de preparo:</h2> <br />
 
-                <li>Em um processador, coloque o peito de frango
-                 sem osso e triture.</li><br />
+                <li>Bata em um liquidificador: o creme de leite, leite, caldo de frango, milho, requeijão, sal e farinha de trigo.</li><br />
 
-                <li>Transfira para um recipiente, tempere com sal, pimenta e outros temperos que preferir (alho ralado, chimichurri, pimenta caiena, páprica…).</li><br />
+                <li>Em uma panela, adicione o azeite e refogue a cebola e o alho.</li><br />
 
-                <li>Adicione a cebola picada, uma colher de sopa da farinha de aveia e misture bem.</li><br />
+                <li>Coloque na panela os peitos de frango, o molho de tomate, a azeitona e o creme batido no liquidificador.</li><br />
 
-                <li>Molde a massa em formato de hambúrguer. Se preferir, use uma balança para deixar todos com a mesma quantidade.</li><br />
+                <li>Adicione o sal e pimento a gosto.</li><br />
 
-                <li>Após fazer os hambúrgueres, empane cada um na farinha de aveia.</li><br />
+                <li>Deixe engrossar por 7 minutos.</li><br />
 
-                <li>Congele ou frite na hora.</li></ul>
+                <li>Coloque em uma travessa o creme.</li><br />
+
+                <li>Adicione mussarela (a gosto) e finalize com 1 pacote de batata palha.</li><br />
+
+                <li>Leve ao forno pré-aquecido 180 graus por aproximadamente 20 minutos.</li><br />                
+               </ul>
             </div>
         </div>
     )

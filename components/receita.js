@@ -49,21 +49,35 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="/" >
+          <Link
+          href="https://github.com/vercel/next.js/tree/master/examples"
+          >
+            <a className={styles.card}><h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
+          </Link>
+
+          <Link href="/Receitas2" >
             <a className={styles.card}>
             <Image src = "/frangolegumes.jpg" width={400} height={280}/>
             <h2>Frango com Legumes&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
+          </Link>          
+        
+          <Link
+          href="https://github.com/vercel/next.js/tree/master/examples"
+          >
+            <a className={styles.card}><h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
           </Link>
           
-          <Link href="/" >
+          <Link href="/Receitas3" >
             <a className={styles.card}>
             <Image src = "/fricasse.jpg" width={400} height={280}/>
             <h2>Fricassê&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="/" >
+          <Link href="/Receitas4" >
             <a className={styles.card}>
             <Image src = "/sopa.jpg" width={400} height={280}/>
             <h2>Sopa de Frango&rarr;</h2>
@@ -80,19 +94,7 @@ function Receitas(){
           <p>Learn about Next.js in an interactive course with quizzes!</p></a>
         </Link>
 
-        <Link
-          href="https://github.com/vercel/next.js/tree/master/examples"
-        >
-          <a className={styles.card}><h2>Examples &rarr;</h2>
-          <p>Discover and deploy boilerplate example Next.js projects.</p></a>
-        </Link>
         
-        <Link
-          href="https://github.com/vercel/next.js/tree/master/examples"
-        >
-          <a className={styles.card}><h2>Examples &rarr;</h2>
-          <p>Discover and deploy boilerplate example Next.js projects.</p></a>
-        </Link>
 
         <Link
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
