@@ -9,7 +9,7 @@ function Home(){
         <>
         <Menu />
         <Modelo1 />
-       
+        <Footer />
         </>
     )
 }

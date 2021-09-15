@@ -22,7 +22,8 @@ function modeloReceita1(){
 
                 <ul><h2>Modo de preparo:</h2> <br />
 
-                <li>Em um processador, coloque o peito de frango sem osso e triture.</li><br />
+                <li>Em um processador, coloque o peito de frango
+                 sem osso e triture.</li><br />
 
                 <li>Transfira para um recipiente, tempere com sal, pimenta e outros temperos que preferir (alho ralado, chimichurri, pimenta caiena, páprica…).</li><br />
 
