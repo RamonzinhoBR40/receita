@@ -246,14 +246,20 @@ margin: 30px 35px;
   margin-left: 0.5rem;
 }
 
+/*Receitas*/
+
+.receita {
+  background-color: chartreuse;
+  width: 100%;
+  height: 50px;
+}
+
+/*Fim Receitas*/
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 
-
-/*Receitas*/
-
-/*Fim Receitas*/
 }

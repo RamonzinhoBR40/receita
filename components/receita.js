@@ -86,6 +86,13 @@ function Receitas(){
           <a className={styles.card}><h2>Examples &rarr;</h2>
           <p>Discover and deploy boilerplate example Next.js projects.</p></a>
         </Link>
+        
+        <Link
+          href="https://github.com/vercel/next.js/tree/master/examples"
+        >
+          <a className={styles.card}><h2>Examples &rarr;</h2>
+          <p>Discover and deploy boilerplate example Next.js projects.</p></a>
+        </Link>
 
         <Link
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
