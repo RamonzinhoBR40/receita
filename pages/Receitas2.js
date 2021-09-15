@@ -1,17 +1,17 @@
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 import Receita from '../components/receita'
-import Modelo1 from '../components/modeloreceita1'
+import Modelo2 from '../components/modeloreceita2'
 
 
-function Receitas1(){
+function Receitas2(){
     return (
         <>
         <Menu />
-        <Modelo1 />
+        <Modelo2 />
         <Footer />
         </>
     )
 }
 
-export default Receitas1
+export default Receitas2

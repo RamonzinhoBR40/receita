@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Components.module.css'
 
-function modeloReceita1(){
+function modeloreceita3(){
     return (
         <div className={styles.receita}>
             <div className={styles.image}> 
@@ -39,4 +39,4 @@ function modeloReceita1(){
     )
 }
 
-export default modeloReceita1
+export default modeloreceita3

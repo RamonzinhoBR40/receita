@@ -41,7 +41,7 @@
 .image h2 {
     font-family: Roboto;
     font-size: 30px;
-    margin-bottom: 60%;
+    
 }
 
 .image {
@@ -68,7 +68,7 @@
     justify-content: center;
     align-items: center;
     flex: column;
-    margin-left: 20%;
+    margin-left: 23%;
     margin-right: 5%;
     border-radius: 4px;
     width: 50%;
