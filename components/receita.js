@@ -49,11 +49,11 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link
-          href="https://github.com/vercel/next.js/tree/master/examples"
-          >
-            <a className={styles.card}><h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
+          <Link href="/Receitas1" >
+            <a className={styles.card}>
+            <Image src = "/abobrinharefo.jpg" width={400} height={280}/>
+            <h2>Hamburguer de Frango &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
           <Link href="/Receitas2" >
@@ -84,9 +84,11 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="https://nextjs.org/docs" >
-            <a className={styles.card}><h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p></a>
+          <Link href="/Receitas1" >
+            <a className={styles.card}>
+            <Image src = "/bolinho.jpg" width={400} height={280}/>
+            <h2>Hamburguer de Frango &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
         <Link href="https://nextjs.org/learn" >
