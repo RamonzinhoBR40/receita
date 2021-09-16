@@ -79,16 +79,16 @@ function Receitas(){
 
           <Link href="/Receitas4" >
             <a className={styles.card}>
-            <Image src = "/sopa.jpg" width={400} height={280}/>
-            <h2>Sopa de Frango&rarr;</h2>
+            <Image src = "/mexidinho.jpg" width={400} height={280}/>
+            <h2>Mexidinho de ovo com Abobrinha&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
           <Link href="/Receitas9" >
             <a className={styles.card}>
-            <Image src = "/mexidinho.jpg" width={400} height={280}/>
-            <h2>Mexidinho de ovo com Abobrinha &rarr;</h2>
-            <p>Otima opção para comidas diferentes</p></a>
+           
+            <h2>MANUTENÇÂO &rarr;</h2>
+            <p>####</p></a>
           </Link>
 
           <Link href="/Receitas5" >

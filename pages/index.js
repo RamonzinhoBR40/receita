@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link  from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Index.module.css'
 
 export default function index() {
   return (
@@ -16,12 +16,11 @@ export default function index() {
       <main className={styles.main}>
         <div className={styles.grid}>
           
-          <a href="/home" className={styles.cardi}>
+          <a href="/home" className={styles.card}>
             <h1 >Seja bem-vindo </h1>
             <h2>Receitas rápidas</h2>
           <p >
-            Site com receitas rápidas e divertidas <br />
-            Mata a fome e deixa você triste.
+            Site com receitas rápidas e divertidas. <br />
           </p>
           <a href="/home"><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
          
