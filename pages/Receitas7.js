@@ -9,7 +9,7 @@ function Receitas7(){
         <>
         <Menu />
         <Modelo7 />
-        <Footer />
+        
         </>
     )
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Components.module.css'
+import Link  from 'next/link'
 
 function modeloreceita3(){
     return (
@@ -48,6 +49,25 @@ function modeloreceita3(){
                 <li>Leve ao forno pré-aquecido 180 graus por aproximadamente 20 minutos.</li><br />                
                </ul>
             </div>
+            <footer className={styles.footer}>
+                <Link
+                    href="https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Contato</Link>
+
+                <Link
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Sobre nós</Link>
+        
+                <Link
+                    href= "https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Instagram</Link>
+            </footer>
         </div>
     )
 }

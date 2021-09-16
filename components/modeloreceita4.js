@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Components.module.css'
+import Link  from 'next/link'
 
 function modeloreceita4(){
     return (
@@ -33,6 +34,25 @@ function modeloreceita4(){
                 <li>Sugerimos que sirva sua sopa cremosa de frango com legumes junto com queijo parmesão ralado e com uma fatia de pão ou torrada. Além do mais, você pode usar sobras de um frango ao molho ou assado para fazer esta receita. Capriche e tenha um bom apetite!</li><br />
                 </ul>
             </div>
+            <footer className={styles.footer}>
+                <Link
+                    href="https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Contato</Link>
+
+                <Link
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Sobre nós</Link>
+        
+                <Link
+                    href= "https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Instagram</Link>
+            </footer>
         </div>
     )
 }

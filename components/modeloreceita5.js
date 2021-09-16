@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Components.module.css'
+import Link  from 'next/link'
 
 function modeloreceita5(){
     return (
@@ -28,6 +29,25 @@ function modeloreceita5(){
                 <li>Depois com uma colher pegue um pouco da massa e frite em óleo bem quente até dourar.</li><br />
                 <li>Escorra em papel toalha e sirva em seguida.</li></ul>
             </div>
+            <footer className={styles.footer}>
+                <Link
+                    href="https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Contato</Link>
+
+                <Link
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Sobre nós</Link>
+        
+                <Link
+                    href= "https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Instagram</Link>
+            </footer>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Components.module.css'
+import Link  from 'next/link'
 
 function modeloReceita1(){
     return (
@@ -34,7 +35,26 @@ function modeloReceita1(){
                 <li>Após fazer os hambúrgueres, empane cada um na farinha de aveia.</li><br />
 
                 <li>Congele ou frite na hora.</li></ul>
-            </div>            
+            </div>  
+            <footer className={styles.footer}>
+                <Link
+                    href="https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Contato</Link>
+
+                <Link
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Sobre nós</Link>
+        
+                <Link
+                    href= "https://www.google.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Instagram</Link>
+            </footer>                    
         </div>
     )
 }
