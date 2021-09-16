@@ -11,7 +11,7 @@ function modeloreceita2(){
 
             <div className={styles.texto}>
                 
-                <ul><h2>Ingredientes: </h2><br />
+            <ul><h2>Ingredientes: </h2><br />
 
                 <li>100 g de mandioquinha descascada, cozida e cortada em rodelas</li><br />
                 <li>100 g de cenoura descascada, cozida e cortada em rodelas</li><br />

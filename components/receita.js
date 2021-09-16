@@ -49,26 +49,26 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="/Receitas1" >
+          <Link href="/Receitas7" >
             <a className={styles.card}>
             <Image src = "/abobrinharefo.jpg" width={400} height={280}/>
-            <h2>Hamburguer de Frango &rarr;</h2>
+            <h2>Abobrinha Refogada&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
           <Link href="/Receitas2" >
             <a className={styles.card}>
-            <Image src = "/frangolegumes.jpg" width={400} height={280}/>
-            <h2>Frango com Legumes&rarr;</h2>
+            <Image src = "/sopa.jpg" width={400} height={280}/>
+            <h2>Sopa de Frango&rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>          
         
-          <Link
-          href="https://github.com/vercel/next.js/tree/master/examples"
-          >
-            <a className={styles.card}><h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p></a>
-          </Link>
+          <Link href="/Receitas8" >
+            <a className={styles.card}>
+            <Image src = "/ovopimentao.jpg" width={400} height={280}/>
+            <h2>Pimentão com ovo &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>        
           
           <Link href="/Receitas3" >
             <a className={styles.card}>
@@ -84,28 +84,26 @@ function Receitas(){
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-          <Link href="/Receitas1" >
+          <Link href="/Receitas9" >
             <a className={styles.card}>
-            <Image src = "/bolinho.jpg" width={400} height={280}/>
-            <h2>Hamburguer de Frango &rarr;</h2>
+            <Image src = "/mexidinho.jpg" width={400} height={280}/>
+            <h2>Mexidinho de ovo com Abobrinha &rarr;</h2>
             <p>Otima opção para comidas diferentes</p></a>
           </Link>
 
-        <Link href="https://nextjs.org/learn" >
-          <a  className={styles.card}><h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p></a>
-        </Link>
+          <Link href="/Receitas5" >
+            <a className={styles.card}>
+            <Image src = "/bolinho.jpg" width={400} height={280}/>
+            <h2>Bolinho de Abobrinha &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>        
 
-        
-
-        <Link
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        >
-          <a className={styles.card}><h2>Deploy &rarr;</h2>
-          <p>
-            Instantly deploy your Next.js site to a public URL with Vercel.
-          </p></a>
-        </Link>
+          <Link href="/Receitas6" >
+            <a className={styles.card}>
+            <Image src = "/abacaxi.png" width={400} height={280}/>
+            <h2>Suco de Abacaxi &rarr;</h2>
+            <p>Otima opção para comidas diferentes</p></a>
+          </Link>        
      </div>
    
     </main>
