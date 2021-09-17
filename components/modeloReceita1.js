@@ -3,6 +3,7 @@ import styles from '../styles/Components.module.css'
 import Link  from 'next/link'
 
 function modeloreceita1(){
+    
     return (
         <div className={styles.receita}>
             <div className={styles.image}> 
