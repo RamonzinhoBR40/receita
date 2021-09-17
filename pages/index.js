@@ -20,7 +20,7 @@ export default function index() {
             <h1 >Seja bem-vindo </h1>
             <h2>Receitas rápidas</h2>
           <p >
-            Site com receitas rápidas e divertidas <br />
+            Site com receitas rápidas e deliciosas <br />
           </p>
           <a href="/home"><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
          
